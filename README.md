@@ -15,8 +15,10 @@ Download the dependencies listed on [Dependencies/readme.md](https://github.com/
         - Python v3.X
 
 #### Users
-- Main software : Download the release (there isn't one yet) or try to compile by following the contributor's procedure
-- Python scripts : Just download the latest version of Python (https://www.python.org/downloads/)
+    Main software : 
+        Download the release (there isn't one yet) or try to compile by following the contributor's procedure
+    Python scripts :
+        Download the latest version of Python : https://www.python.org/downloads/
 
 ### Project structure
 ```text
@@ -54,8 +56,10 @@ Téléchargez les dépendances listées dans [Dependencies/readme.md](https://gi
         - Python v3.X
 
 #### Utilisateurs
-- Pour le logiciel, téléchargez la release (il n'y en a pas encore) ou essayez de compiler en suivant la procédure pour les contributeurs
-- Pour les scripts Python, installez juste la dernière version de Python : https://www.python.org/downloads/
+    - Logiciel principal
+        Téléchargez la release (il n'y en a pas encore) ou essayez de compiler en suivant la procédure pour les contributeurs
+    - Scripts Python
+        Installez la dernière version de Python : https://www.python.org/downloads/
 
 ### Structure du projet
 ```text
