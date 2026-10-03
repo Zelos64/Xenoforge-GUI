@@ -5,12 +5,12 @@ from pathlib import Path
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Load ffmpeg.exe
-ffmpegLocation = os.path.join(script_dir, "..", "Dependencies", "ffmpeg.exe")
+ffmpegLocation = os.path.join(os.path.dirname(script_dir), "Dependencies", "ffmpeg.exe")
 if os.path.exists(ffmpegLocation):
     print("")
 else:
     print("Download ffmpeg from the official website 'https://ffmpeg.org/download.html'")
-    print("And place the executable ffmpeg.exe in this directory : ", os.path.join(script_dir, "..", "Dependencies"))
+    print("And place the executable ffmpeg.exe in this directory : ", os.path.dirname(ffmpegLocation))
     input("Press enter to exit")
     quit()
 
